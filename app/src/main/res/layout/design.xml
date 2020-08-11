@@ -1,0 +1,79 @@
+<RelativeLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/circle"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:translationX="60dp"
+        android:translationY="60dp"
+        />
+<FrameLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:id="@+id/framephoto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:src="@drawable/ripple"
+        android:scaleType="centerInside"
+
+        android:id="@+id/newsimage"
+        android:layout_gravity="center" />
+</FrameLayout>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/link"/>
+
+    <TextView
+        android:id="@+id/titlel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/framephoto"
+        android:fontFamily="@font/carter_one"
+        android:gravity="center"
+        android:text="The good, the bad, and the ugly of the Warriors' trade for D'Angelo Russell - ClutchPoints"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+<TextView
+    android:padding="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="published at"
+    android:id="@+id/published"
+    android:paddingRight="20dp"
+    android:layout_below="@+id/titlel"
+    android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/contentl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/published"
+        android:fontFamily="casual"
+        android:padding="15dp"
+        android:paddingTop="20dp"
+        android:text="Only a few hours after nearly all hope was lost upon news of Kevin Durant’s decision to join the Brooklyn Nets, the Golden State Warriors pulled a last-minute blockbuster trade to recoup something for his loss, bringing in D’Angelo Russell, Treveon Graham, an… [+4176 chars]"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="author"
+        android:paddingLeft="30dp"
+        android:id="@+id/author"
+android:layout_toRightOf="@+id/published"
+        android:layout_alignBottom="@id/published"
+        android:textSize="17sp"/>
+
+
+</RelativeLayout>

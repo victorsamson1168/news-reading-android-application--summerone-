@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "649845795368",
+    "firebase_url": "https://summerone-e3353.firebaseio.com",
+    "project_id": "summerone-e3353",
+    "storage_bucket": "summerone-e3353.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649845795368:android:2423d939bbae3d5b",
+        "android_client_info": {
+          "package_name": "com.example.summerone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "649845795368-tpcenksbt21qvk0cu0iqed2c3rllv62m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.summerone",
+            "certificate_hash": "481b661365db5e64ddae3574420e0bfb6a2c3f37"
+          }
+        },
+        {
+          "client_id": "649845795368-hk21gj19uoq41ji5alhc87fs5egf4kkv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4P3Wnz5baVy3XNQJshMyYyJqBvki6rck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "649845795368-hk21gj19uoq41ji5alhc87fs5egf4kkv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
